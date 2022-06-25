@@ -3,7 +3,7 @@ from colorama import Fore,init
 init()
 bruteforce=smtplib.SMTP("smtp.gmail.com",587)
 # 587 or 465
-print(                                                 f"{Fore.RED}     programmer:badtree        ") 
+print(                                                 f"{Fore.RED}     programmer:badtree68        ") 
 bruteforce.ehlo()
 bruteforce.starttls()
 passlist=input("enter a your passlist: ")
